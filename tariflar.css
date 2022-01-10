@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navigation{
+    width: 100%;
+    height: 50px;
+    background-color: #464646;
+    display: flex;
+    align-items: center;
+}
+.navigation i{
+    color: rgb(179, 173, 173);
+    font-size: 20px;
+    margin-left: 50px;
+}
+.navigation a{
+    text-decoration: none;
+    color: rgb(179, 173, 173);
+    font-size: 10px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+.navigation ul{
+    display: flex;
+    align-items: center;
+}
+.navigation a:first-child{
+    color: rgb(241, 68, 68);
+    background-color: #fff;
+    padding: 21px;
+    font-weight: 600;
+    font-size: 12px;
+}
+.navigation_left img{
+    width: 20px;
+    margin-left: 25px;
+}
+.navigation_left{
+    display: flex;
+    align-items: center;
+    margin-left: 300px;
+}
+
+.navigation_left a:last-child{
+    color: #fff;
+    font-weight: 100;
+    font-size: 15px;
+    padding: 15px;
+    background-color: #5a5a5a;
+}
+.container{
+    width: 90%;
+    height: 120px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.39);
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.container img{
+    width: 270px;
+}
+.btn1{
+    width: 250px;
+    height: 45px;
+    border: 2px solid rgba(128, 128, 128, 0.39);
+    border-radius: 5px;
+    color:  gray;
+    margin-left: 220px;
+    background-color: #fff;
+}
+.btn1 i{
+    margin: 10px;
+}
+#phone{
+    width: 40px;
+    color:  gray;
+    margin-left: 20px;
+}
+.container span p{
+    font-size: 13px;
+    margin: 5px 10px;
+}
+.container span h4{
+    font-size: 14px;
+    margin: 5px 10px;
+}
+.btn2{
+    width: 220px;
+    height: 45px;
+    border:  2px solid rgba(128, 128, 128, 0.39);
+    background-color: #fff;
+    border-radius: 5px;
+    margin-left: 20px;
+    color: gray;
+}
+.btn3{
+    width: 150px;
+    height: 45px;
+    background-color: #E62229;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.btn3:hover{
+    background-color: #f73b42;
+}
+.btn1:hover{
+    border: 2px solid #000;
+}
+.btn2:hover{
+    border: 2px solid #000;
+}
+.collection_div{
+    width: 90%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.collection_div ul a{
+    text-decoration: none;
+    color: #333;
+    margin: 10px;
+    font-size: 15px;
+}
+.collection_div ul{
+    margin-left: -10px;
+}
+.collection_div ul a i{
+    color: #E62229;
+    font-size: 12px;
+}
+
+.abonent{
+    width: 100%;
+    height: 50px;
+    background-color: #fbfbfb;
+    display: flex;
+    align-items: center;
+}
+.abonent h3{
+    font-size: 14px;
+    font-weight: 500;   
+    color: gray;
+    margin-left: 80px;
+}
+.abonent i{
+    margin: 10px;
+    font-size: 12px;
+    color: gray;
+}
+.abonent h3:last-child{
+    margin-left: 0px;
+}
